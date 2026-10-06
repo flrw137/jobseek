@@ -39,3 +39,31 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# InsForge & AI agent skills
+.insforge
+.agent
+.agents
+.augment
+.claude
+.cline
+.github/copilot*
+.kilocode
+.qoder
+.qwen
+.roo
+.trae
+.windsurf
+
+# tool-generated artifacts
+.codex/
+dev_server.log
+*.log
+npm-insforge-mcp-metadata.json
+skills-lock.json
+
+# local InsForge MCP key (loaded via opencode.json {file:...})
+/.insforge-mcp-key
+
+# stray nested project (separate InsForge app)
+/folder/
